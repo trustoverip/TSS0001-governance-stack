@@ -36,9 +36,9 @@
 # -----------------------------------------------------------------------------
 
 # Repo Instance Specific
-REPO_NAME ?= mkdocs-material
-UPSTREAM_REPO ?= https://github.com/trustoverip/mkdocs-material.git
-DEV_SITE_PORT ?= 7500
+REPO_NAME ?= TSS0001-governance-stack
+UPSTREAM_REPO ?= https://github.com/trustoverip/TSS0001-governance-stack.git
+DEV_SITE_PORT ?= 7501
 
 # Template Repo Defaults
 TEMPLATE_REPO ?= https://github.com/trustoverip/mkdocs-material.git
