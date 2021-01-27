@@ -11,16 +11,15 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 # Project information
-site_name: Trust over IP – General Template
-site_url: https://trustoverip.github.io/mkdocs-material/
+site_name: Trust over IP – Governance Architecture Specification.
+site_url: https://trustoverip.github.io/TSS0001-governance-stack/
 site_author: Trust over IP Foundation
 site_description: >-
-  Trust over IP Foundation template for general documentation
-  and technical specification using Material for MkDocs
+  ToIP Governance Architecture Specification.
 
 # Repository information
-repo_name: trustoverip/mkdocs-material
-repo_url: https://github.com/trustoverip/mkdocs-material
+repo_name: trustoverip/TSS0001-governance-stack
+repo_url: https://github.com/trustoverip/TSS0001-governance-stack
 
 # Content Generator Settings
 docs_dir: 'docs'
@@ -34,9 +33,8 @@ copyright: >-
   Projects, LLC is an affiliate of the Linux Foundation.
 
 # Navigation structure
-# nav:
-#  - Page 1: page-1.md
-#  - Page 2: page-2.md
+nav:
+ - "Overview": 'index.md'
 
 # Theme configuration
 theme:
@@ -54,6 +52,9 @@ theme:
 # Plugin configuration
 plugins:
   - search
+  - enumerate-headings:
+      strict: true
+      toc_depth: 3
 
 # Extensions configuration
 markdown_extensions:
@@ -64,7 +65,7 @@ markdown_extensions:
   - footnotes
   - meta
   - toc:
-      permalink: true
+      permalink: "§"
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -98,9 +99,10 @@ markdown_extensions:
 
 # Additional content
 extra:
-  title: 'XX0000: Deliverable Name'
+  title: 'TSS0001: Governance Stack'
   lf_url: https://www.linuxfoundation.org/projects
   toip_url: https://trustoverip.org/
+  toc_title: Table of contents
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/trustoverip
@@ -112,6 +114,7 @@ extra:
 # Additional stylesheets
 extra_css:
   - theme/stylesheets/main.css
+  - theme/stylesheets/spec.css
 
 # Additional JavaScript
 extra_javascript:
