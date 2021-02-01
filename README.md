@@ -1,6 +1,6 @@
 # ToIP  TSS0001: Governance Stack Specification
 
-- Authors: Drummond Reed (you@github-email) -- email is optional
+- Authors: [Drummond Reed](drummond.reed@evernym.com)
 - Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
 - Since: 2021-01-27
 - Status Note: _Work in progress_
