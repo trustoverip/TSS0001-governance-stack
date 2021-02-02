@@ -10,10 +10,7 @@
 
 ## Summary
 
-```
-One paragraph explanation of the objective of the subject ToIP deliverable.
-DELETE THIS COMMENT
-```
+The Governance Stack Specification contains requirements, roles and processes for a complete governance architecture based on the ToIP model.  The overall purpose of the ToIP Governance Stack is to enable users of the ToIP Technology Stack to make Transitive Trust decisions based on Governance Frameworks that are both human-readable and machine-verifiable.
 
 ## Purpose
 This repo manages the development and maintenance of the subject ToIP deliverable. It contains the tools necessary to generate multiple renderings formats.
