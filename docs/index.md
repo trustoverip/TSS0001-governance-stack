@@ -1,4 +1,4 @@
-This page is a preliminary draft of the ToIP Governance Architecture TSS (ToIP Standard Specification), a Draft Deliverable of the GSWG. It is intended for editing of the content of the TSS prior to moving the document into a GitHub repo (where we will convert it into a Markdown document following the process being developed by the Operations Team). To simplify editing, one subsection of the TSS, the ToIP governance metamodel, is being drafted on its own wiki page.
+This is a preliminary draft of the ToIP Governance Architecture TSS (ToIP Standard Specification), a Draft Deliverable of the GSWG. 
 
 ###Contributors
 To comply with the intellectual property rights protections in the charter of the ToIP Foundation (as required by all Joint Development Foundation projects hosted the Linux Foundation), all contributors to this Pre-Draft Deliverable MUST be current members of the ToIP Foundation and the Governance Stack Working Group (GSWG). The following contributors each certify that they meet this requirement:
@@ -29,9 +29,9 @@ To support Transitive Trust across trust boundaries, ToIP-Compliant Governance F
 
 The following MUST have Public Decentralized Identifiers (DIDs) compliant with the ToIP Technology Stack:
 
-Governance Authority (GA)
-Master Document
-All Participants fulfilling Roles defined in the GF (e.g., Issuers, Stewards, Member Directories)
+* Governance Authority (GA)
+* Master Document
+* All Participants fulfilling Roles defined in the GF (e.g., Issuers, Stewards, Member Directories)
 
 The following SHOULD have Public DID URLs compliant with the ToIP Technology Stack:
 
@@ -68,4 +68,3 @@ To support the interoperability necessary for Transitive Trust, a publicly-ava
 * MUST specify technical interoperability using ToIP Standard Specification (TSS) whenever possible.
 * SHOULD specify interoperability using a ToIP Interoperability Profile (TIP) whenever a TSS is not yet available.
 
-Governance Stack Working Group
